@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root{
+
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: #720455;
+
+
+    --Grayish-Blue: #4e5d73;
+    --Dark-Grayish-Blue: #3C0753;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 0px;
+}
+body{
+    background-color: #030637;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--Dark-Grayish-Blue);
+    max-width: 550px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto 20px;
+}
+
+#advNumber{
+    color: var(--Neon-Green);
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+
+
+#Advice{
+    margin: 20px auto 0; 
+    font-size: 17px;
+    width: 100%;
+    color: #de67b9;
+    margin-bottom: 2rem;
+}
+
+
+.divider{
+    margin: 20px 0 30px;
+    background-size: 100% 100%;
+    width: 100%;
+ }
+#btn{
+    background-color: var(--Neon-Green);
+    border-radius: 50%;
+    padding: 15px 16px 12px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+#btn img{
+    width: 23px;
+}
+#btn:hover {
+    box-shadow: 0 0 40px var(--Neon-Green);
+}
+
+
+.attribution { 
+    font-size: 0.8rem; 
+    align-self: flex-end;
+    text-align: center;
+    background-color: var(--Dark-Grayish-Blue);
+    padding: 10px;
+    color: var(--Light-Cyan);
+} 
+.attribution a { 
+    color: var(--Neon-Green); 
+}
+
+@media (min-width: 530px) {
+    main{
+        margin: auto;
+    }
+}
