@@ -1,5 +1,5 @@
-const adviceNumber = document.getElementById('advNumber');
-const adviceText = document.getElementById('Advice');
+const adviceNumber = document.getElementById('advId');
+const adviceText = document.getElementById('advText');
 const button = document.getElementById('btn');
 
 button.addEventListener('click', function() {
